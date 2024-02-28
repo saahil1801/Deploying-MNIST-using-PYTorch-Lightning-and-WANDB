@@ -50,5 +50,3 @@ For any questions or support, please open an issue on this repository.
 
 
 ```
-
-Ensure that you include all relevant scripts and files in the repository and provide a detailed guide on how to replicate the model's training and deployment. If there are any specific requirements or steps needed to run the code, these should be included in the README as well.
