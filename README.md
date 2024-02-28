@@ -1,9 +1,5 @@
 # Deploying-MNIST-using-PYTorch-Lightning-and-WANDB
 
-Based on the contents of the provided PDF file, here is a comprehensive README structure for a GitHub repository that hosts the project "Deploying on MNIST Data Using WandB and PyTorch Lightning":
-
-`
-# Deploying on MNIST Data Using WandB and PyTorch Lightning
 
 ## Overview
 This project showcases the use of PyTorch Lightning to train a neural network on the MNIST dataset and leverages Weights & Biases (wandb) for experiment tracking and model management.
