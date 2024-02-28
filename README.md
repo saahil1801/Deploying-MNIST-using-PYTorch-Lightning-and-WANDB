@@ -26,6 +26,11 @@ pip install -qqq wandb lightning torchmetrics onnx
 - The `on_test_epoch_end` method is overridden to convert the trained model to ONNX format and log it to wandb as an artifact.
 
 
+![Screenshot 2024-02-28 150816](https://github.com/saahil1801/Deploying-MNIST-using-PYTorch-Lightning-and-WANDB/assets/84408557/c03df0ce-d8ff-4fc9-b0da-f168d429ba0b)
+![Screenshot 2024-02-28 150708](https://github.com/saahil1801/Deploying-MNIST-using-PYTorch-Lightning-and-WANDB/assets/84408557/730f38da-4233-4363-be66-1d95784971a0)
+![Screenshot 2024-02-28 150735](https://github.com/saahil1801/Deploying-MNIST-using-PYTorch-Lightning-and-WANDB/assets/84408557/85fbf056-40fa-4bc1-a10e-0e1df908d303)
+
+
 ## Experiment Tracking
 WandB dashboards provide insights into the training process, with metrics such as accuracy and loss visualized in real-time.
 
@@ -38,10 +43,6 @@ This project is licensed under the terms of the MIT license.
 ## Acknowledgments
 - Thanks to the creators of the PyTorch Lightning framework and Weights & Biases platform for their fantastic tools.
 - MNIST dataset creators for providing a benchmark dataset for the machine learning community.
-
-![Screenshot 2024-02-28 150816](https://github.com/saahil1801/Deploying-MNIST-using-PYTorch-Lightning-and-WANDB/assets/84408557/c03df0ce-d8ff-4fc9-b0da-f168d429ba0b)
-![Screenshot 2024-02-28 150708](https://github.com/saahil1801/Deploying-MNIST-using-PYTorch-Lightning-and-WANDB/assets/84408557/730f38da-4233-4363-be66-1d95784971a0)
-![Screenshot 2024-02-28 150735](https://github.com/saahil1801/Deploying-MNIST-using-PYTorch-Lightning-and-WANDB/assets/84408557/85fbf056-40fa-4bc1-a10e-0e1df908d303)
 
 
 
