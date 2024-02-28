@@ -25,11 +25,6 @@ pip install -qqq wandb lightning torchmetrics onnx
 ## Model Checkpointing
 - The `on_test_epoch_end` method is overridden to convert the trained model to ONNX format and log it to wandb as an artifact.
 
-## Usage
-To train and evaluate the model, execute the provided script with:
-```bash
-python train.py
-```
 
 ## Experiment Tracking
 WandB dashboards provide insights into the training process, with metrics such as accuracy and loss visualized in real-time.
